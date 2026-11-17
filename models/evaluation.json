@@ -1,0 +1,64 @@
+{
+  "threshold": 0.3541666666666667,
+  "metrics": {
+    "Precision": 0.9523809523809523,
+    "Recall": 0.6666666666666666,
+    "F1-Score": 0.7843137254901961,
+    "ROC-AUC": 0.9508567435359889
+  },
+  "clean_false_positive_rate": 0.0033962264150943396,
+  "confusion": [
+    [
+      2641,
+      9
+    ],
+    [
+      90,
+      180
+    ]
+  ],
+  "faults": [
+    {
+      "Fault type": "spike",
+      "Injected": 12,
+      "Caught": 12,
+      "Missed": 0,
+      "Recall": 1.0
+    },
+    {
+      "Fault type": "stuck_sensor",
+      "Injected": 77,
+      "Caught": 65,
+      "Missed": 12,
+      "Recall": 0.8441558441558441
+    },
+    {
+      "Fault type": "drift",
+      "Injected": 145,
+      "Caught": 69,
+      "Missed": 76,
+      "Recall": 0.47586206896551725
+    },
+    {
+      "Fault type": "missing",
+      "Injected": 8,
+      "Caught": 8,
+      "Missed": 0,
+      "Recall": 1.0
+    },
+    {
+      "Fault type": "inconsistent",
+      "Injected": 8,
+      "Caught": 8,
+      "Missed": 0,
+      "Recall": 1.0
+    },
+    {
+      "Fault type": "neighbor_disagreement",
+      "Injected": 20,
+      "Caught": 18,
+      "Missed": 2,
+      "Recall": 0.9
+    }
+  ]
+}
